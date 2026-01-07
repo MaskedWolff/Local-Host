@@ -323,7 +323,8 @@ https://cdn-globecast.akamaized.net/live/eds/saudi_quran/hls_roku/index.m3u8
 https://live-islamtv-urdu.simplestreamcdn.com/live13/islamtv_urdu/bitrate1.isml/live.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/rwxtdrjC/1591200820461.png" group-title="ISLAMIC", AL Quran AL Kareem
-https://win.holol.com/live/quran/playlist.m3u8
+https://cdn-globecast.akamaized.net/live/eds/saudi_quran/hls_roku/index.m3u8
+#https://win.holol.com/live/quran/playlist.m3u8
 #https://al-ekhbaria-prod-dub.shahid.net/out/v1/9885cab0a3ec4008b53bae57a27ca76b/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3w5XWgiRF9lQonp4lbp3iiv6plXk5LMd0VA&usqp=CAU" group-title="ISLAMIC", Iqra TV

@@ -5237,6 +5237,15 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/Bharat_Express_BTS/output/index.mpd?__hdn
 #EXTHTTP:{"cookie":"__hdnea__=st=1767784205~exp=1767870605~acl=/*~hmac=ec1b86ff554ee0c21af51fd3cbc62e659dcf540cd0b74442936b190033784eb7"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/One_Paschima_BTS/output/index.mpd?__hdnea__=st=1767784205~exp=1767870605~acl=/*~hmac=ec1b86ff554ee0c21af51fd3cbc62e659dcf540cd0b74442936b190033784eb7&xxx=%7Ccookie=__hdnea__=st=1767784205~exp=1767870605~acl=/*~hmac=ec1b86ff554ee0c21af51fd3cbc62e659dcf540cd0b74442936b190033784eb7
 
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/138941_5808_CCH_SYL_fc-web_1766733054205.jpg" group-title="Fancode-Cricket", Chattogram Royals vs Sylhet Titans (Bangladesh Premier League, 2025-26)
+https://in-mc-fdlive.fancode.com/mumbai/138941_english_hls_48ed6eee9983049_1ta-di_h264/index.m3u8
+
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/139254_5822_KR-U23_IRN-U23_fc-web.jpg" group-title="Fancode-Football", Korea Republic U23 vs IR Iran U23 (AFC U23 Asian Cup, 2026)
+https://in-mc-fdlive.fancode.com/mumbai/139254_english_hls_638114bb7c9231_1ta-di_h264/index.m3u8
+
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/139253_5822_JP-U23_SYR-U23_fc-web.jpg" group-title="Fancode-Football", Japan U23 vs Syria U23 (AFC U23 Asian Cup, 2026)
+https://in-mc-fdlive.fancode.com/mumbai/139253_english_hls_4b585058b680046_1ta-di_h264/index.m3u8
+
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/ATP_Brisbane__FC-Web.jpg" group-title="Fancode-Tennis", Show Court 1 - Day 4 vs Show Court 1, Brisbane (ATP 250 - Brisbane)
 https://in-mc-fdlive.fancode.com/mumbai/139191_english_hls_078c776f8b1233_1ta-di_h264/index.m3u8
 
@@ -5515,7 +5524,7 @@ https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8?hdnea=exp=17
 #EXTINF:-1 tvg-id="sony-aath" tvg-name="Sony Aath" tvg-language="Bengali" tvg-logo="https://i.postimg.cc/bY12WVTm/SONY-AATH.png" group-title="Entertainment",Sony Aath liv1
 https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1767826343~acl=/*~id=28711967852244279322890046554065~hmac=ae7fd5424dfbbdd87f78fe92d1dc8aba1a95138d0e4aca90296bba7b9d1b14ef
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013030/1767697177599902_UC26_QF_Switzerland_vs_Argentina_6jan_landscape_thumb.jpg" group-title="sonyliv-Tennis", Switzerland vs Argentina - Quarter-final - 7 Jan 2026 [ENG] - United Cup 2026 
-https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1767827562~acl=/*~id=71959827041932857825343645011611~hmac=46243108c894ab02011ce2ba4f6794d39b45ef257793d1a3c1a40231285ba5da
+https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1767828779~acl=/*~id=42882543738023565387331966774220~hmac=6984668c41d9445a36e174f61861d02dc9c2917ce4b6fd9d03d2e8e42308b7e5
 
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey

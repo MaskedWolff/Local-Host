@@ -5243,9 +5243,6 @@ https://in-mc-fdlive.fancode.com/mumbai/138945_english_hls_425d16059e35160_1ta-d
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/ATP_Brisbane__FC-Web.jpg" group-title="Fancode-Tennis", Pat Rafter Arena - Day 6 vs Rafter Arena, Brisbane (ATP 250 - Brisbane)
 https://in-mc-fdlive.fancode.com/mumbai/139194_english_hls_2011737c6424099_1ta-di_h264/index.m3u8
 
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/ATP-250---Hong-Kong_2026_Web_1080_x_810.jpg" group-title="Fancode-Tennis", Center Court - Day 5 vs Hong Kong (ATP 250 - Hong Kong)
-https://in-mc-fdlive.fancode.com/mumbai/139208_english_hls_ce83ebd80a67417_1ta-di_h264/index.m3u8
-
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)_1767345135310.png" group-title="Fancode-Tennis", Centre Court - Day 5 vs Bengaluru (ATP Challenger 125 -  Bengaluru Open)
 https://in-mc-fdlive.fancode.com/mumbai/139287_english_hls_8139d864e751453_1ta-di_h264/index.m3u8
 
@@ -5523,6 +5520,9 @@ https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8?hdnea=exp=17
 
 #EXTINF:-1 tvg-id="sony-aath" tvg-name="Sony Aath" tvg-language="Bengali" tvg-logo="https://i.postimg.cc/bY12WVTm/SONY-AATH.png" group-title="Entertainment",Sony Aath liv1
 https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1768002772~acl=/*~id=12104151042086779957065973323202~hmac=e5fd627b1d152dfd7f51ff0ded67740ae7636bf8bc66df1b829192eced2bdb89
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013032/1767698942088649_SLvsPAK26_2t20i_6jan_landscape_thumb.jpg" group-title="sonyliv-Cricket", 2nd T20I - 9 Jan 2026 [ENG] - Pakistan Tour of Sri Lanka 2026
+https://sonydaimenew.akamaized.net/hls/live/2018457/DAI35-criclive/std_lrh-800300010.m3u8?hdnea=exp=1768006414~acl=/*~id=69334364771127832972750295559040~hmac=57618225256ea5aa925bd2af18e63e58749ddae3a98c40961d5c2f7eff61c4c5
+
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=26df86eeebb04d7fbc45c948f76e81fd:5f3a23f1a73c4c96ababce5fffe7b06b

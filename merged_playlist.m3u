@@ -5237,14 +5237,17 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/Bharat_Express_BTS/output/index.mpd?__hdn
 #EXTHTTP:{"cookie":"__hdnea__=st=1767956991~exp=1768043391~acl=/*~hmac=b5dfa66c089e2e419a4a421af7ef3695e292b96a1fbdfb61376055c7fa1fe48e"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/One_Paschima_BTS/output/index.mpd?__hdnea__=st=1767956991~exp=1768043391~acl=/*~hmac=b5dfa66c089e2e419a4a421af7ef3695e292b96a1fbdfb61376055c7fa1fe48e&xxx=%7Ccookie=__hdnea__=st=1767956991~exp=1768043391~acl=/*~hmac=b5dfa66c089e2e419a4a421af7ef3695e292b96a1fbdfb61376055c7fa1fe48e
 
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Oman-Super-League-T20_FC-Web.jpg" group-title="Fancode-Cricket", Majees Titans vs Oman Development Team (Oman Super League T20, 2026)
-https://in-mc-fdlive.fancode.com/mumbai/139573_english_hls_562482020234301_1ta-di_h264/index.m3u8
-
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Al-Kholood-Club-vs-Al-Ittihad_fc-web_1767365352759.jpg" group-title="Fancode-Football", Al-Kholood Club vs Al-Ittihad (Roshn Saudi League 2025-2026)
 https://in-mc-fdlive.fancode.com/mumbai/139203_english_hls_3a37c84ef261787_1ta-di_h264/index.m3u8
 
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Cameroon-vs-Morocco_fc-web.jpg" group-title="Fancode-Football", Cameroon vs Morocco (Africa Cup of Nations 2025-26)
 https://in-mc-fdlive.fancode.com/mumbai/138388_english_hls_b50450f5227461_1ta-di_h264/index.m3u8
+
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131018_5427_GEF_RS_fc-Web.png" group-title="Fancode-Football", Getafe CF vs Real Sociedad (LALIGA 2025-26)
+https://in-mc-fdlive.fancode.com/mumbai/131018_english_hls_8ed270d21f40954_1ta-di_h264/index.m3u8
+
+#EXTINF:-1, tvg-logo="https://images.fancode.com/aig/match/v1/139247_CASACARDS_APP.png" group-title="Fancode-Football", Cádiz vs Sporting de Gijón (LALIGA Hypermotion 2025-26)
+https://in-mc-fdlive.fancode.com/mumbai/139247_english_hls_6f877cbffd3887_1ta-di_h264/index.m3u8
 
 #Generated on 1767962677
 
@@ -5521,10 +5524,10 @@ https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8?hdnea=exp=17
 #EXTINF:-1 tvg-id="sony-aath" tvg-name="Sony Aath" tvg-language="Bengali" tvg-logo="https://i.postimg.cc/bY12WVTm/SONY-AATH.png" group-title="Entertainment",Sony Aath liv1
 https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1768028308~acl=/*~id=86774347543321439151832558176947~hmac=2ab2e059eb81b76d0999018b0b07d52ff27e533d492b927e3ece967afe1e664c
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013148/176793910790478_facup26_RD3_Wrexham_vs_Nottingham_Forest_9jan_Landscape_thumb.jpg" group-title="sonyliv-Football", Wrexham vs Nottingham Forest - Round 3 - 10 Jan 2026 [ENG] - The Emirates FA Cup 2025-26
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768029524~acl=/*~id=34063957327020634614747234799008~hmac=4e467cf019c6f5f207f704529d5a8d5fd11c7847d358d8766027c519bb43e890
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768030132~acl=/*~id=15889193361690304482313436223400~hmac=595b1ad1dc304bdb17e9543d275c12cb2f24624b0a036fcf7d55196ac4f51c70
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013116/1767854408912351_Bundesliga_MD16_Eintracht-Frankfurt-vs-Borussia-Dortmund_landscape_thumb.jpg" group-title="sonyliv-Football", Eintracht Frankfurt vs Borussia Dortmund - MD 16 - 10 Jan 2026 [ENG] - Bundesliga 2025-26
-https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768029524~acl=/*~id=34063957327020634614747234799008~hmac=4e467cf019c6f5f207f704529d5a8d5fd11c7847d358d8766027c519bb43e890
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768030132~acl=/*~id=15889193361690304482313436223400~hmac=595b1ad1dc304bdb17e9543d275c12cb2f24624b0a036fcf7d55196ac4f51c70
 
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey

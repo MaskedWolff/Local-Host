@@ -5237,14 +5237,14 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/Bharat_Express_BTS/output/index.mpd?__hdn
 #EXTHTTP:{"cookie":"__hdnea__=st=1768043258~exp=1768129658~acl=/*~hmac=7a9fe24ac8cede3d8596e51421d7f8bb79d8ca5c28e6f8f1cba43a6644780873"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/One_Paschima_BTS/output/index.mpd?__hdnea__=st=1768043258~exp=1768129658~acl=/*~hmac=7a9fe24ac8cede3d8596e51421d7f8bb79d8ca5c28e6f8f1cba43a6644780873&xxx=%7Ccookie=__hdnea__=st=1768043258~exp=1768129658~acl=/*~hmac=7a9fe24ac8cede3d8596e51421d7f8bb79d8ca5c28e6f8f1cba43a6644780873
 
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Egypt-vs-Ivory-Coast_fc-web.jpg" group-title="Fancode-Football", Egypt vs Ivory Coast (Africa Cup of Nations 2025-26)
-https://in-mc-fdlive.fancode.com/mumbai/138390_english_hls_9fe78d79a136280_1ta-di_h264/index.m3u8
-
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131014_5427_VAL_ELC_fc-Web.png" group-title="Fancode-Football", Valencia CF vs Elche CF (LALIGA 2025-26)
 https://in-mc-fdlive.fancode.com/mumbai/131014_english_hls_bfd56b4c1f36423_1ta-di_h264/index.m3u8
 
 #EXTINF:-1, tvg-logo="https://images.fancode.com/aig/match/v1/139249_CASACARDS_APP.png" group-title="Fancode-Football", Racing Club vs Real Zaragoza (LALIGA Hypermotion 2025-26)
 https://in-mc-fdlive.fancode.com/mumbai/139249_english_hls_27b9a905d037471_1ta-di_h264/index.m3u8
+
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Egypt-vs-Ivory-Coast_fc-web.jpg" group-title="Fancode-Football", Egypt vs Ivory Coast (Africa Cup of Nations 2025-26)
+https://in-mc-fdlive.fancode.com/mumbai/138390_english_hls_9fe78d79a136280_1ta-di_h264/index.m3u8
 
 #Generated on 1768048785
 
@@ -5521,10 +5521,10 @@ https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8?hdnea=exp=17
 #EXTINF:-1 tvg-id="sony-aath" tvg-name="Sony Aath" tvg-language="Bengali" tvg-logo="https://i.postimg.cc/bY12WVTm/SONY-AATH.png" group-title="Entertainment",Sony Aath liv1
 https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1768120018~acl=/*~id=88711066849673970688516805265408~hmac=40f844b2efac5d1d54e777a0fbb9e3aa3c0c55b43798395b79b2a1d74fae2a93
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013167/1767949166351145_FA_CUP_26_RD3_Charlton-vs-Chelsea_9jan_Landscape_thumb.jpg" group-title="sonyliv-Football", Charlton vs Chelsea - Round 3 - 11 Jan 2026 [ENG] - The Emirates FA Cup 2025-26
-https://sonydaimenew.akamaized.net/hls/live/2022322/DAI18ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768121234~acl=/*~id=68801894756819307224165546277788~hmac=b0395446fa864a46b64bbb188c22c08610f1081adf9282e84f9c33d379ca3feb
+https://sonydaimenew.akamaized.net/hls/live/2022322/DAI18ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768121843~acl=/*~id=41174789223184061181858955170301~hmac=e70a621ffbe782f8ea951c7baa8ac460be966fabb0ce6f6a69f7ac102dac98e1
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013178/1767968640671941_ABB_FIA_FormulaE_WC2526_Round_2_Hankook_Mexico_City_EPRIX_final_Race_9jan_landscape_thumb.jpg" group-title="sonyliv-Racing", Round 2 - Hankook Mexico City E-Prix - Final Race - 11 Jan 2026 [ENG] - ABB FIA Formula E World Championship
-https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768121234~acl=/*~id=68801894756819307224165546277788~hmac=b0395446fa864a46b64bbb188c22c08610f1081adf9282e84f9c33d379ca3feb
+https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768121843~acl=/*~id=41174789223184061181858955170301~hmac=e70a621ffbe782f8ea951c7baa8ac460be966fabb0ce6f6a69f7ac102dac98e1
 
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey

@@ -5240,8 +5240,8 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/One_Paschima_BTS/output/index.mpd?__hdnea
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131019_5427_GIR_OSN_fc-Web_1767595548457.png" group-title="Fancode-Football", Girona FC vs CA Osasuna (LALIGA 2025-26)
 https://in-mc-fdlive.fancode.com/mumbai/131019_english_hls_b23b5104c747563_1ta-di_h264/index.m3u8
 
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/139264_5822_SYR-U23_QAT-U23_fc-web.jpg" group-title="Fancode-Football", Syria U23 vs Qatar U23 (AFC U23 Asian Cup, 2026)
-https://in-mc-fdlive.fancode.com/mumbai/139264_english_hls_2aa224d29f72070_1ta-di_h264/index.m3u8
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Egypt-vs-Ivory-Coast_fc-web.jpg" group-title="Fancode-Football", Egypt vs Ivory Coast (Africa Cup of Nations 2025-26)
+https://in-mc-fdlive.fancode.com/mumbai/138390_english_hls_9fe78d79a136280_1ta-di_h264/index.m3u8
 
 #EXTINF:-1, tvg-logo="https://images.fancode.com/aig/match/v1/139248_CASACARDS_APP.png" group-title="Fancode-Football", Las Palmas vs Deportivo La Coruna (LALIGA Hypermotion 2025-26)
 https://in-mc-fdlive.fancode.com/mumbai/139248_english_hls_8036369be926297_1ta-di_h264/index.m3u8
@@ -5520,6 +5520,12 @@ https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8?hdnea=exp=17
 
 #EXTINF:-1 tvg-id="sony-aath" tvg-name="Sony Aath" tvg-language="Bengali" tvg-logo="https://i.postimg.cc/bY12WVTm/SONY-AATH.png" group-title="Entertainment",Sony Aath liv1
 https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1768113001~acl=/*~id=aaae6fa9ca0a162083ebb16b20a2f978-1768069800182~hmac=379d010858d24b7bd48d8e30151ec95204bb8a86af16975434d9132fe1f28311
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013116/1767860238140351_Bundesliga_MD16_Bayer-Leverkusen-vs-VfB-Stuttgart_landscape_thumb.jpg" group-title="sonyliv-Football", Bayer Leverkusen vs VfB Stuttgart - MD 16 - 10 Jan 2026 [ENG] - Bundesliga 2025-26
+https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768115138~acl=/*~id=21803848318214205668750904462333~hmac=b23e24998238bfb5bba89db9ff01af44d022a633f1ee52e2db46303e290bf90c
+
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013178/1767968640671941_ABB_FIA_FormulaE_WC2526_Round_2_Hankook_Mexico_City_EPRIX_final_Race_9jan_landscape_thumb.jpg" group-title="sonyliv-Racing", Round 2 - Hankook Mexico City E-Prix - Final Race - 11 Jan 2026 [ENG] - ABB FIA Formula E World Championship
+https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768115138~acl=/*~id=21803848318214205668750904462333~hmac=b23e24998238bfb5bba89db9ff01af44d022a633f1ee52e2db46303e290bf90c
+
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=26df86eeebb04d7fbc45c948f76e81fd:5f3a23f1a73c4c96ababce5fffe7b06b

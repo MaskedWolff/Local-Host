@@ -5237,6 +5237,9 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/Bharat_Express_BTS/output/index.mpd?__hdn
 #EXTHTTP:{"cookie":"__hdnea__=st=1768082947~exp=1768169347~acl=/*~hmac=d278090e7ee3fe03ce79c35ea76e0cd6d4f087b69200a682e4f2f2ef04e01c43"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/One_Paschima_BTS/output/index.mpd?__hdnea__=st=1768082947~exp=1768169347~acl=/*~hmac=d278090e7ee3fe03ce79c35ea76e0cd6d4f087b69200a682e4f2f2ef04e01c43&xxx=%7Ccookie=__hdnea__=st=1768082947~exp=1768169347~acl=/*~hmac=d278090e7ee3fe03ce79c35ea76e0cd6d4f087b69200a682e4f2f2ef04e01c43
 
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/138778_5801_WB-W_NB-W_fc-web_1766596522077.jpg" group-title="Fancode-Cricket", Wellington Blaze vs Northern Brave Women (Women's Super Smash, 2025-26)
+https://in-mc-fdlive.fancode.com/mumbai/138778_english_hls_3ef96e9a261392_1ta-di_h264/index.m3u8
+
 #Generated on 1768048785
 
 #EXTINF:-1 tvg-id="0-9-aajtak" group-title="News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Aaj_Tak.png",Aaj Tak

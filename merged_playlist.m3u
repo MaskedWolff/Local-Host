@@ -5237,6 +5237,9 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/Bharat_Express_BTS/output/index.mpd?__hdn
 #EXTHTTP:{"cookie":"__hdnea__=st=1768006082~exp=1768092482~acl=/*~hmac=fb537cc51b6e6f7873550a02047076378033230829a16efd0f2c328deee2f44e"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/One_Paschima_BTS/output/index.mpd?__hdnea__=st=1768006082~exp=1768092482~acl=/*~hmac=fb537cc51b6e6f7873550a02047076378033230829a16efd0f2c328deee2f44e&xxx=%7Ccookie=__hdnea__=st=1768006082~exp=1768092482~acl=/*~hmac=fb537cc51b6e6f7873550a02047076378033230829a16efd0f2c328deee2f44e
 
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Oman-Super-League-T20_FC-Web.jpg" group-title="Fancode-Cricket", IAS Invincibles vs Yalla Shabab Giants (Oman Super League T20, 2026)
+https://in-mc-fdlive.fancode.com/mumbai/139574_english_hls_4f1227598c45864_1ta-di_h264/index.m3u8
+
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/138821_5802_MAC_SYD_fc-web.jpg" group-title="Fancode-Football", Macarthur vs Sydney FC (A League 2025-26)
 https://in-mc-fdlive.fancode.com/mumbai/138821_english_hls_2072bc5cba47760_1ta-di_h264/index.m3u8
 
@@ -5524,7 +5527,7 @@ https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8?hdnea=exp=17
 #EXTINF:-1 tvg-id="sony-aath" tvg-name="Sony Aath" tvg-language="Bengali" tvg-logo="https://i.postimg.cc/bY12WVTm/SONY-AATH.png" group-title="Entertainment",Sony Aath liv1
 https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1768084065~acl=/*~id=68409367754006083401704685926515~hmac=674227b88a29441055387fb2d1c0af7f0ac3479163ec29f78bc2b27add0d9599
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013177/1767966837383634_UC26_SF_USA_vs_Poland_9jan_landscape_thumb.jpg" group-title="sonyliv-Tennis", USA vs Poland - Semi-final - 10 Jan 2026 [ENG] - United Cup 2026 
-https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768084675~acl=/*~id=23883419030968951746032728362381~hmac=177f0f1e5ab7e024bc1661ad418bf0dec7155833a0847473707a5a10a6db5303
+https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768085290~acl=/*~id=50533349761816583315435565646096~hmac=a2ba4e378d5e4fe158e1f05dd73c5e05c5dbf33757acde7c6534bec78e00d0f8
 
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey

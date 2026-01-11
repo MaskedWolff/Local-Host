@@ -1,39 +1,37 @@
 name: Ultimate Playlist Merge (Fast)
 
 on:
+  push:
+    paths:
+      - My_playlist
   schedule:
-    - cron: '*/30 * * * *'   # backup run
+    - cron: '*/30 * * * *'
   workflow_dispatch:
-  repository_dispatch:
-    types: [playlist_updated]
 
 jobs:
   merge:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repo
+      - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Download External Playlists
+      - name: Download external playlists
         run: |
           set -e
-          echo "⬇️ Downloading external playlists..."
+          echo "Downloading external playlists..."
 
-          curl -fsSL "https://raw.githubusercontent.com/alex8875/m3u/refs/heads/main/jstar.m3u" -o external_jstar.m3u || echo "⚠️ JStar failed"
-          curl -fsSL "https://raw.githubusercontent.com/drmlive/fancode-live-events/main/fancode.m3u" -o external_fancode.m3u || echo "⚠️ Fancode failed"
-          curl -fsSL "https://raw.githubusercontent.com/alex8875/m3u/refs/heads/main/z5.m3u" -o external_z5.m3u || echo "⚠️ Z5 failed"
-          curl -fsSL "https://raw.githubusercontent.com/himanshu-temp/m3u/refs/heads/main/sony.m3u" -o external_sony.m3u || echo "⚠️ Sony failed"
-          curl -fsSL "https://raw.githubusercontent.com/drmlive/sliv-live-events/refs/heads/main/sonyliv.m3u" -o external_sonyliv.m3u || echo "⚠️ Sonyliv failed"
+          curl -fsSL "https://raw.githubusercontent.com/alex8875/m3u/refs/heads/main/jstar.m3u" -o external_jstar.m3u || true
+          curl -fsSL "https://raw.githubusercontent.com/drmlive/fancode-live-events/main/fancode.m3u" -o external_fancode.m3u || true
+          curl -fsSL "https://raw.githubusercontent.com/alex8875/m3u/refs/heads/main/z5.m3u" -o external_z5.m3u || true
+          curl -fsSL "https://raw.githubusercontent.com/himanshu-temp/m3u/refs/heads/main/sony.m3u" -o external_sony.m3u || true
+          curl -fsSL "https://raw.githubusercontent.com/drmlive/sliv-live-events/refs/heads/main/sonyliv.m3u" -o external_sonyliv.m3u || true
 
-          echo "⬇️ Downloading YOUR main playlist..."
-          curl -fsSL "https://raw.githubusercontent.com/MaskedWolff/Local-Host/refs/heads/main/My_playlist" -o external_local.m3u || echo "⚠️ Local playlist failed"
-
-      - name: Merge Playlists
+      - name: Merge playlists
         run: |
           echo "#EXTM3U" > merged_playlist.m3u
 
-          for f in external_jstar.m3u external_fancode.m3u external_z5.m3u external_sony.m3u external_sonyliv.m3u external_local.m3u; do
+          for f in external_jstar.m3u external_fancode.m3u external_z5.m3u external_sony.m3u external_sonyliv.m3u My_playlist; do
             if [ -s "$f" ]; then
               grep -v '^#EXTM3U' "$f" >> merged_playlist.m3u || true
             fi
@@ -47,16 +45,16 @@ jobs:
             }
           }' merged_playlist.m3u
 
-      - name: Commit if Updated
+      - name: Commit if changed
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
           git add merged_playlist.m3u
 
           if ! git diff --cached --quiet; then
-            git commit -m "Auto merge playlists"
-            git pull origin main --rebase
-            git push origin main
+            git commit -m "Auto update merged playlist"
+            git push
           else
             echo "No changes"
           fi

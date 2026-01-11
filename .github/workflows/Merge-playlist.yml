@@ -2,8 +2,10 @@ name: Ultimate Playlist Merge (Fast)
 
 on:
   schedule:
-    - cron: '*/2 * * * *'   # ⏱ Runs every 2 minutes
+    - cron: '*/30 * * * *'   # backup run
   workflow_dispatch:
+  repository_dispatch:
+    types: [playlist_updated]
 
 jobs:
   merge:
@@ -27,7 +29,7 @@ jobs:
           echo "⬇️ Downloading YOUR main playlist..."
           curl -fsSL "https://raw.githubusercontent.com/MaskedWolff/Local-Host/refs/heads/main/My_playlist" -o external_local.m3u || echo "⚠️ Local playlist failed"
 
-      - name: Merge Playlists (safe)
+      - name: Merge Playlists
         run: |
           echo "#EXTM3U" > merged_playlist.m3u
 
@@ -37,16 +39,13 @@ jobs:
             fi
           done
 
-          echo "✅ Merge complete."
-
-      - name: Add liv1 to Sony channels (safe)
+      - name: Add liv1 to Sony channels
         run: |
           sed -i '/#EXTINF/{
             /Sony/{
               /liv1/! s/$/ liv1/
             }
           }' merged_playlist.m3u
-          echo "✅ liv1 added safely to Sony channels"
 
       - name: Commit if Updated
         run: |
@@ -55,9 +54,9 @@ jobs:
           git add merged_playlist.m3u
 
           if ! git diff --cached --quiet; then
-            git commit -m "Auto-merge playlists + remote main playlist"
+            git commit -m "Auto merge playlists"
             git pull origin main --rebase
             git push origin main
           else
-            echo "ℹ️ No changes detected"
+            echo "No changes"
           fi

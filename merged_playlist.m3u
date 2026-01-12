@@ -5524,7 +5524,7 @@ https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8?hdnea=exp=17
 #EXTINF:-1 tvg-id="sony-aath" tvg-name="Sony Aath" tvg-language="Bengali" tvg-logo="https://i.postimg.cc/bY12WVTm/SONY-AATH.png" group-title="Entertainment",Sony Aath liv1
 https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1768238564~acl=/*~id=77049787411588262811952949225629~hmac=1ea6b78bb6d908456b90958944e7435a51c698cbdc516a87f6cbad8268357095
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012853/1767278965328898_SuperSmash2526_mens_Otago-Volts-vs-Auckland-Aces_1jan_landscape_thumb.jpg" group-title="sonyliv-Cricket", Otago Volts vs Auckland Aces - 12 Jan 2026 [ENG] - Super Smash 2025/26 Men's
-https://sonydaimenew.akamaized.net/hls/live/2005444/DAI07ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768239781~acl=/*~id=86766169595518388753970629658651~hmac=dc01b026e7fe3f15b83818fa7334f9a03469bda8deaca0d5cc163590e4f3ff04
+https://sonydaimenew.akamaized.net/hls/live/2005444/DAI07ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768240390~acl=/*~id=88751562962776042286524427070674~hmac=961065f2af867ff5e1bfe21a20b4df1bd1038fdab5ab7b5258f357f0d0482941
 
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -5540,8 +5540,8 @@ https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andpictures/default/manifest.mpd
 
 #EXTINF:-1 tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/490_144.png" group-title="MIXED TV", Zee Cinema SD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=ed068cf84f0640ccbc7c0e395c0a272e:bb722190f2bb446391020411a7d0828b
-https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeetv/default/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_key=43513b13f4b542e39c9265921dfc1726:b0b2678bcd274c37b888a6c987d502ed
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeecinema/default/manifest.mpd
 
 #EXTINF:-1 tvg-logo="https://divign0fdw3sv.cloudfront.net/Images/ChannelLogo/contenthub/490_144.png" group-title="MIXED TV", Zee Cinema HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey

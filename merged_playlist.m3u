@@ -5237,17 +5237,11 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/Bharat_Express_BTS/output/index.mpd?__hdn
 #EXTHTTP:{"cookie":"__hdnea__=st=1768302635~exp=1768389035~acl=/*~hmac=811bd695c3f23a87074bb8de379632f20bc039f4ce838d9718b9d9ad72b80a36"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/One_Paschima_BTS/output/index.mpd?__hdnea__=st=1768302635~exp=1768389035~acl=/*~hmac=811bd695c3f23a87074bb8de379632f20bc039f4ce838d9718b9d9ad72b80a36&xxx=%7Ccookie=__hdnea__=st=1768302635~exp=1768389035~acl=/*~hmac=811bd695c3f23a87074bb8de379632f20bc039f4ce838d9718b9d9ad72b80a36
 
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Oman-Super-League-T20_FC-Web.jpg" group-title="Fancode-Cricket", IAS Invincibles vs Majees Titans (Oman Super League T20, 2026)
-https://in-mc-fdlive.fancode.com/mumbai/139579_english_hls_e863ca214f34866_1ta-di_h264/index.m3u8
-
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Damac-VS-Image-Al-Ittihad_fc-web.jpg" group-title="Fancode-Football", Damac vs Al-Ittihad (Roshn Saudi League 2025-2026)
 https://in-mc-fdlive.fancode.com/mumbai/139358_english_hls_434953ab6540532_1ta-di_h264/index.m3u8
 
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/139272_5822_UAE-U23_SYR-U23_fc-web.jpg" group-title="Fancode-Football", United Arab Emirates U23 vs Syria U23 (AFC U23 Asian Cup, 2026)
-https://in-mc-fdlive.fancode.com/mumbai/139272_english_hls_1e9a42a00f17476_1ta-di_h264/index.m3u8
-
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/139271_5822_JP-U23_QAT-U23_fc-web.jpg" group-title="Fancode-Football", Japan U23 vs Qatar U23 (AFC U23 Asian Cup, 2026)
-https://in-mc-fdlive.fancode.com/mumbai/139271_english_hls_b1cc996e8626896_1ta-di_h264/index.m3u8
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/CWI-Women's-T20-Blaze_fc-web.jpg" group-title="Fancode-Cricket", Jamaica Women vs Leeward Islands Women (CWI T20 Blaze 2026)
+https://in-mc-fdlive.fancode.com/mumbai/139746_english_hls_9a8ce266ae19979_1ta-di_h264/index.m3u8
 
 #Generated on 1768308488
 
@@ -5523,8 +5517,17 @@ https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/master.m3u8?hdnea=exp=17
 
 #EXTINF:-1 tvg-id="sony-aath" tvg-name="Sony Aath" tvg-language="Bengali" tvg-logo="https://i.postimg.cc/bY12WVTm/SONY-AATH.png" group-title="Entertainment",Sony Aath liv1
 https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/master.m3u8?hdnea=exp=1768242601~acl=/*~id=374a19cab600f041c94afa74d071075a-1768199400189~hmac=a0b42abbb5e705d960e145ae491d6faf2016e147d03f620dbab9e4794dce199a
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013251/1768135144547648_bliga26_MD17_Dortmund_vs_Werder_Bremen_11jan_landscape_thumb.jpg" group-title="sonyliv-Football", Borussia Dortmund vs Werder Bremen - MD 17 - 14 Jan 2026 [ENG] - Bundesliga 2025-26
+https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768373558~acl=/*~id=02476290663701839194226300182613~hmac=3d7bcd579681d4beaa50dbc83f26c5425f0ab40df99ab956a9da66400a5c9e42
+
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013251/1768136250489648_bliga26_MD17_Hamburg_SV_vs_Leverkusen_11jan_landscape_thumb.jpg" group-title="sonyliv-Football", Hamburger SV vs Bayer Leverkusen - MD 17 - 14 Jan 2026 [ENG] - Bundesliga 2025-26
+https://sonydaimenew.akamaized.net/hls/live/2105079/DAI08ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768373558~acl=/*~id=02476290663701839194226300182613~hmac=3d7bcd579681d4beaa50dbc83f26c5425f0ab40df99ab956a9da66400a5c9e42
+
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013251/1768134950567648_bliga26_MD17_VfB_Stuttgart_vs_Eintracht_Frankfurt_11jan_landscape_thumb.jpg" group-title="sonyliv-Football", VfB Stuttgart vs Eintracht Frankfurt - MD 17 - 13 Jan 2026 [ENG] - Bundesliga 2025-26
-https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768371731~acl=/*~id=97423932306608762945781841401864~hmac=3c49ced32a96166948f8a81e817659c27388089fb6e44518427407ef82c03810
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768373558~acl=/*~id=02476290663701839194226300182613~hmac=3d7bcd579681d4beaa50dbc83f26c5425f0ab40df99ab956a9da66400a5c9e42
+
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013251/1768136509863648_bliga26_MD17_Mainz_vs_Heidenheim_11jan_landscape_thumb.jpg" group-title="sonyliv-Football", Mainz vs Heidenheim - MD 17 - 14 Jan 2026 [ENG] - Bundesliga 2025-26
+https://sonydaimenew.akamaized.net/hls/live/2018457/DAI09ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768373558~acl=/*~id=02476290663701839194226300182613~hmac=3d7bcd579681d4beaa50dbc83f26c5425f0ab40df99ab956a9da66400a5c9e42
 
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey

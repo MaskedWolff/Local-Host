@@ -24,7 +24,7 @@ jobs:
           curl -fsSL "https://raw.githubusercontent.com/alex8875/m3u/refs/heads/main/jstar.m3u" -o external_jstar.m3u || true
           curl -fsSL "https://raw.githubusercontent.com/drmlive/fancode-live-events/main/fancode.m3u" -o external_fancode.m3u || true
           curl -fsSL "https://raw.githubusercontent.com/alex8875/m3u/refs/heads/main/z5.m3u" -o external_z5.m3u || true
-          curl -fsSL "https://raw.githubusercontent.com/himanshu-temp/m3u/refs/heads/main/sony.m3u" -o external_sony.m3u || true
+          curl -fsSL "https://raw.githubusercontent.com/hasanhabibmottakin/Sony-Liv-Channels/refs/heads/main/playlist.m3u" -o external_sony.m3u || true
           curl -fsSL "https://raw.githubusercontent.com/drmlive/sliv-live-events/refs/heads/main/sonyliv.m3u" -o external_sonyliv.m3u || true
 
       - name: Merge playlists

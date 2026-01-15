@@ -27,11 +27,16 @@ jobs:
           curl -fsSL "https://raw.githubusercontent.com/drmlive/sliv-live-events/main/sonyliv.m3u" -o external_sonyliv.m3u || true
           curl -fsSL "https://raw.githubusercontent.com/hasanhabibmottakin/Sony-Liv-Channels/main/playlist.m3u" -o external_sonyliv_channels.m3u || true
 
+      - name: Fix SonyLIV Channels group title
+        run: |
+          if [ -s external_sonyliv_channels.m3u ]; then
+            sed -i 's/group-title="[^"]*"/group-title="SonyLIV Official"/g' external_sonyliv_channels.m3u
+          fi
+
       - name: Merge playlists
         run: |
           echo '#EXTM3U' > merged_playlist.m3u
 
-          # Merge downloaded playlists
           for f in \
             external_jstar.m3u \
             external_fancode.m3u \
@@ -44,7 +49,6 @@ jobs:
             fi
           done
 
-          # Merge all local playlists from My_playlist folder
           if [ -d "My_playlist" ]; then
             find My_playlist -type f -name "*.m3u" -print0 | while IFS= read -r -d '' file; do
               grep -v '^#EXTM3U' "$file" >> merged_playlist.m3u || true

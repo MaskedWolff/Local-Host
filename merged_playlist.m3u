@@ -5500,11 +5500,14 @@ https://dishmt.slivcdn.com/hls/live/2020591/TEN3HD/master.m3u8?hdnea=exp=1768496
 https://dishmt.slivcdn.com/hls/live/2020589/ten4hd/master.m3u8?hdnea=exp=1768496787~acl=/*~id=05721367104346460342175756760982~hmac=88fb48c7bb56527ca921f7fefdea3994ea11844f1212eadae5abf99a5fb2f43e
 #EXTINF:-1 tvg-id="1000009275" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/39_277.png", Sony Sports Ten 4 HD liv1
 https://dishmt.slivcdn.com/hls/live/2020589/ten4hd/master.m3u8?hdnea=exp=1768496787~acl=/*~id=05721367104346460342175756760982~hmac=88fb48c7bb56527ca921f7fefdea3994ea11844f1212eadae5abf99a5fb2f43e
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013378/1768394373358258_AO26_Djokovic_vs_Tiafoe_op_live_landscpae_thumb.jpg" group-title="sonyliv-Tennis", Novak Djokovic vs Frances Tiafoe - 15 Jan 2026 [ENG] - Australian Open 2026
+https://sonydaimenew.akamaized.net/hls/live/2022316/DAI12ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768498607~acl=/*~id=99097409814499615434206191021069~hmac=d2273f74188c0e766b6bfec13480185e40eb248b688d015d3199cec7c493807d
+
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012916/1767337972882901_SuperSmash2526_mens_Otago-Volts-vs-Wellington-Firebirds_1jan_landscape_thumb.jpg" group-title="sonyliv-Cricket", Otago Volts vs Wellington Firebirds - 15 Jan 2026 [ENG] - Super Smash 2025/26 Men's
-https://sonydaimenew.akamaized.net/hls/live/2005444/DAI07ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768498000~acl=/*~id=17211340673453395918346595380510~hmac=3f114e42be459986b707fe6524a2c8e175e44d43e2c1e961fa151318a3a1c8a8
+https://sonydaimenew.akamaized.net/hls/live/2005444/DAI07ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768498607~acl=/*~id=99097409814499615434206191021069~hmac=d2273f74188c0e766b6bfec13480185e40eb248b688d015d3199cec7c493807d
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013339/1768311115384502_AO26_Qualifying_Final_Round_13jan_landscape_thumb.jpg" group-title="sonyliv-Tennis", Qualifying - Final Round - 15 Jan 2026 [ENG] - Australian Open 2026
-https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768498000~acl=/*~id=17211340673453395918346595380510~hmac=3f114e42be459986b707fe6524a2c8e175e44d43e2c1e961fa151318a3a1c8a8
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768498607~acl=/*~id=99097409814499615434206191021069~hmac=d2273f74188c0e766b6bfec13480185e40eb248b688d015d3199cec7c493807d
 
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -5763,8 +5766,8 @@ https://live1.ottlive.co.in/voiceurdutv/voiceurdutv/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
 https://nw18live.cdn.jio.com/bpk-tv/News18_Urdu_NW18_MOB/output01/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://d388d59m61mm0v.cloudfront.net/optimized/content/common/logos/channel/logos/iqfloc.png" group-title="NEWS", NDTV India
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#KODIPROP:inputstream.adaptive.license_key=d78c01625c3f4ed98912609799298544:b91bb882f9624872ada6125006fe5c73
-https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Ndtvindia2/default/manifest.mpd
+#EXTINF:-1 tvg-logo="https://d2cv8l6xnxpisu.cloudfront.net/NDTV_India_dark.jpg" group-title="NEWS" group-logo="https://i.ibb.co/zhQMSvMt/download.png", NDTV HINDI
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01605-ndtvconvergence-ndtvindia-lgin/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://d2cv8l6xnxpisu.cloudfront.net/NDTV24x7-black.jpg" group-title="NEWS" group-logo="https://i.ibb.co/zhQMSvMt/download.png", NDTV 24X7
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01605-ndtvconvergence-ndtv24x7-lgin/playlist.m3u8

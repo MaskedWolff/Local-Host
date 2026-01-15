@@ -42,12 +42,18 @@ jobs:
             fi
           done
 
-          # 🔥 FORCE SonyLIV Official group (NO FAIL GUARANTEE)
+          # 🔥 Split Sony Sports & SonyLIV Official
           if [ -s external_sonyliv_channels.m3u ]; then
             awk '
               /^#EXTINF:/ {
                 gsub(/group-title="[^"]*"/, "", $0)
-                sub(/#EXTINF:/, "#EXTINF:-1 group-title=\"SonyLIV Official\" ", $0)
+
+                line = tolower($0)
+                if (line ~ /sony sports|sports ten|ten 1|ten 2|ten 3|ten 4|ten 5|six/) {
+                  sub(/#EXTINF:/, "#EXTINF:-1 group-title=\"Sony Sports\" ", $0)
+                } else {
+                  sub(/#EXTINF:/, "#EXTINF:-1 group-title=\"SonyLIV Official\" ", $0)
+                }
               }
               !/^#EXTM3U/
             ' external_sonyliv_channels.m3u >> merged_playlist.m3u

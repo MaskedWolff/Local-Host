@@ -4246,10 +4246,10 @@ https://z5ak-cmaflive.zee5.com/cmaf/live/2105538/ZeeTalkiesELE/master.m3u8?hdntl
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
 https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8?hdntl=exp=1768567564~acl=%2f*~id=ad85447d-6f4e-4caf-8d2a-f76ca570c380~data=hdntl~hmac=a4952685b3a981f31c9bd8355ec77a211fa41540643ad122e746aa69fbae5bc1
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013387/1768403052642345_PWL_26_Punjab-Royals-vs-UP-Dominators_14jan_landscape_thumb.jpg" group-title="sonyliv-Wrestling", Punjab Royals vs UP Dominators - 15 Jan 2026 [ENG] - Pro Wrestling League 2026
-https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768535009~acl=/*~id=29753024141520386559715107093691~hmac=a1d35dea0a236d570e91704c7e24f3eecff418750d030c73fd3b0709230f5cad
+https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768535617~acl=/*~id=07915948996394054515888045313450~hmac=6d856447e29b017565a08e138019725f5cb17dad3c3752d78d8ec6e88ef2b16c
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013387/1768403052642345_PWL_26_Punjab-Royals-vs-UP-Dominators_14jan_landscape_thumb.jpg" group-title="sonyliv-Wrestling", Punjab Royals vs UP Dominators - 15 Jan 2026 [HIN] - Pro Wrestling League 2026
-https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768535009~acl=/*~id=29753024141520386559715107093691~hmac=a1d35dea0a236d570e91704c7e24f3eecff418750d030c73fd3b0709230f5cad
+https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768535617~acl=/*~id=07915948996394054515888045313450~hmac=6d856447e29b017565a08e138019725f5cb17dad3c3752d78d8ec6e88ef2b16c
 
 #EXTINF:-1 group-title="SonyLIV Official" -1 tvg-id="1000009246" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/4_244.png", SET HD
 https://dishmt.slivcdn.com/hls/live/2011671/SETHD/master.m3u8?hdnea=exp=1768534402~acl=/*~id=64769945536752274617584255862447~hmac=52c6d16a93ba1ddbb6cde20a1ce6bc3362ccaaf7ad4db019724a485c809de145

@@ -18,7 +18,6 @@ jobs:
 
       - name: Download external playlists
         run: |
-          set -e
           echo "Downloading external playlists..."
 
           curl -fsSL "https://raw.githubusercontent.com/alex8875/m3u/main/jstar.m3u" -o external_jstar.m3u || true
@@ -31,7 +30,7 @@ jobs:
         run: |
           echo '#EXTM3U' > merged_playlist.m3u
 
-          # Normal playlists
+          # Merge normal playlists
           for f in \
             external_jstar.m3u \
             external_fancode.m3u \
@@ -39,21 +38,25 @@ jobs:
             external_sonyliv.m3u; do
 
             if [ -s "$f" ]; then
-              grep -v '^#EXTM3U' "$f" >> merged_playlist.m3u
+              grep -v '^#EXTM3U' "$f" >> merged_playlist.m3u || true
             fi
           done
 
-          # 🔥 FORCE SonyLIV Official group title
+          # 🔥 FORCE SonyLIV Official group (NO FAIL GUARANTEE)
           if [ -s external_sonyliv_channels.m3u ]; then
-            grep -v '^#EXTM3U' external_sonyliv_channels.m3u \
-            | sed -E 's/(#EXTINF:[^,]*),.*/\1 group-title="SonyLIV Official",/g' \
-            >> merged_playlist.m3u
+            awk '
+              /^#EXTINF:/ {
+                gsub(/group-title="[^"]*"/, "", $0)
+                sub(/#EXTINF:/, "#EXTINF:-1 group-title=\"SonyLIV Official\" ", $0)
+              }
+              !/^#EXTM3U/
+            ' external_sonyliv_channels.m3u >> merged_playlist.m3u
           fi
 
-          # Local playlists
+          # Merge local playlists
           if [ -d "My_playlist" ]; then
             find My_playlist -type f -name "*.m3u" -print0 | while IFS= read -r -d '' file; do
-              grep -v '^#EXTM3U' "$file" >> merged_playlist.m3u
+              grep -v '^#EXTM3U' "$file" >> merged_playlist.m3u || true
             done
           fi
 

@@ -3741,12 +3741,6 @@ https://z5ak-cmaflive.zee5.com/cmaf/live/2105538/ZeeTalkiesELE/master.m3u8?hdntl
 #EXTINF:-1 tvg-id="0-9-9z5398761" group-title="Spiritual" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Aastha.png",Aastha
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
 https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8?hdntl=exp=1768567564~acl=%2f*~id=ad85447d-6f4e-4caf-8d2a-f76ca570c380~data=hdntl~hmac=a4952685b3a981f31c9bd8355ec77a211fa41540643ad122e746aa69fbae5bc1
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013387/1768403052642345_PWL_26_Punjab-Royals-vs-UP-Dominators_14jan_landscape_thumb.jpg" group-title="sonyliv-Wrestling", Punjab Royals vs UP Dominators - 15 Jan 2026 [ENG] - Pro Wrestling League 2026
-https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768541081~acl=/*~id=93058344310802695014130094471620~hmac=57d67179ddc3fd7fcbb4189502a2aa8334df0d56754f21176b93054781d839a4
-
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013387/1768403052642345_PWL_26_Punjab-Royals-vs-UP-Dominators_14jan_landscape_thumb.jpg" group-title="sonyliv-Wrestling", Punjab Royals vs UP Dominators - 15 Jan 2026 [HIN] - Pro Wrestling League 2026
-https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768541081~acl=/*~id=93058344310802695014130094471620~hmac=57d67179ddc3fd7fcbb4189502a2aa8334df0d56754f21176b93054781d839a4
-
 #EXTINF:-1 group-title="SonyLIV Official" -1 tvg-id="1000009246" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/4_244.png", SET HD
 https://dishmt.slivcdn.com/hls/live/2011671/SETHD/master.m3u8?hdnea=exp=1768539260~acl=/*~id=38318605992385603931274990330014~hmac=a4469d4b05c243ad15a97c7e82c66c57ab240cea23f36ea832cb8bdf44b03be0
 #EXTINF:-1 group-title="SonyLIV Official" -1 tvg-id="1000009248" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/33_247.png", Sony SAB HD

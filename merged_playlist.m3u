@@ -5501,13 +5501,13 @@ https://dishmt.slivcdn.com/hls/live/2020589/ten4hd/master.m3u8?hdnea=exp=1768498
 #EXTINF:-1 tvg-id="1000009275" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/39_277.png", Sony Sports Ten 4 HD liv1
 https://dishmt.slivcdn.com/hls/live/2020589/ten4hd/master.m3u8?hdnea=exp=1768498607~acl=/*~id=99097409814499615434206191021069~hmac=d2273f74188c0e766b6bfec13480185e40eb248b688d015d3199cec7c493807d
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013378/1768394373358258_AO26_Djokovic_vs_Tiafoe_op_live_landscpae_thumb.jpg" group-title="sonyliv-Tennis", Novak Djokovic vs Frances Tiafoe - 15 Jan 2026 [ENG] - Australian Open 2026
-https://sonydaimenew.akamaized.net/hls/live/2022316/DAI12ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768498607~acl=/*~id=99097409814499615434206191021069~hmac=d2273f74188c0e766b6bfec13480185e40eb248b688d015d3199cec7c493807d
+https://sonydaimenew.akamaized.net/hls/live/2022316/DAI12ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768499216~acl=/*~id=77352911280617463906140255981872~hmac=abfd976a37b70d1f4bd7606745d3541fcc5f172d936426972ba99f23e8fe4bc7
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012916/1767337972882901_SuperSmash2526_mens_Otago-Volts-vs-Wellington-Firebirds_1jan_landscape_thumb.jpg" group-title="sonyliv-Cricket", Otago Volts vs Wellington Firebirds - 15 Jan 2026 [ENG] - Super Smash 2025/26 Men's
-https://sonydaimenew.akamaized.net/hls/live/2005444/DAI07ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768498607~acl=/*~id=99097409814499615434206191021069~hmac=d2273f74188c0e766b6bfec13480185e40eb248b688d015d3199cec7c493807d
+https://sonydaimenew.akamaized.net/hls/live/2005444/DAI07ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768499216~acl=/*~id=77352911280617463906140255981872~hmac=abfd976a37b70d1f4bd7606745d3541fcc5f172d936426972ba99f23e8fe4bc7
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013339/1768311115384502_AO26_Qualifying_Final_Round_13jan_landscape_thumb.jpg" group-title="sonyliv-Tennis", Qualifying - Final Round - 15 Jan 2026 [ENG] - Australian Open 2026
-https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768498607~acl=/*~id=99097409814499615434206191021069~hmac=d2273f74188c0e766b6bfec13480185e40eb248b688d015d3199cec7c493807d
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768499216~acl=/*~id=77352911280617463906140255981872~hmac=abfd976a37b70d1f4bd7606745d3541fcc5f172d936426972ba99f23e8fe4bc7
 
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -5535,13 +5535,6 @@ https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://a.jsrdn.com/hls/23077/bollywood-classic/logo_20231219_184825_52.png" group-title="MIXED TV",Bollywood Classic
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-classic/manifest.m3u8
-
-#EXTINF:-1 group-title="MIXED TV" tvg-logo="https://akamaividz2.zee5.com/image/upload/w_1755,h_987,c_scale,f_webp,q_auto:eco/resources/0-9-bigganga/list_clean/1170x658b1a857ea78b747b4a6256dd13b3828fd.png", Zee Anmol Cinema 2
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=https://tp.drmlive-01.workers.dev?id=12
-#KODIPROP:inputstream.adaptive.manifest_type=mpd
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
-http://192.168.1.13:8000/tataplay-main/get-mpd.php?id=12|X-Forwarded-For=59.178.74.184&Origin=https://watch.tataplay.com&Referer=https://watch.tataplay.com/
 
 #EXTINF:-1 tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN38000072R_20241211T020400SQUARE.png" group-title="MIXED TV", The Movie Club
 https://pb-dkdpz5so0aqqr.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/pb-dkdpz5so0aqqr/TMC_IN.m3u8?ads.cdn=ak&pb_type=pb-dkdpz5so0aqqr_akamai
@@ -5775,3 +5768,6 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01605-ndtvconvergence-ndtv24x7-lgin
 #EXTINF:-1 tvg-id="pishow-1043" tvg-name="INDIA TV" tvg-language="hi" tvg-logo="https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/pishow-1043.jpg" group-title="NEWS" group-logo="https://www.playboxtv.in/images/playbox-logo.png", INDIA TV
 #EXTHTTP:{"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36", "Origin": "https://www.playboxtv.in", "Referer": "https://www.playboxtv.in/livetv", "X-User-Agent": "OTT Navigator/1.7.2.2 (Linux;Android 11; en; 1nsjitl)"}
 https://cdn-2.pishow.tv/live/1043/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36&Origin=https://www.playboxtv.in&Referer=https://www.playboxtv.in/livetv&X-User-Agent=OTT Navigator/1.7.2.2 (Linux;Android 11; en; 1nsjitl)
+
+#EXTINF:-1 tvg-logo="https://dvvlqr1rtlak3.cloudfront.net/ZEE/WION/200x-400-px-landscape-wion.jpg" group-title="NEWS" group-logo="https://i.ibb.co/zhQMSvMt/download.png", Zee Wion
+https://amg02481-amg02481c1-lg-in-5173.playouts.now.amagi.tv/playlist/amg02481-indiadotcomdigitalprivatelimitedfast-wion-lgin/playlist.m3u8

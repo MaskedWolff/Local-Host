@@ -30,42 +30,17 @@ jobs:
         run: |
           echo '#EXTM3U' > merged_playlist.m3u
 
-          # 🔥 JSTAR – DROP unwanted + AUTO-DETECT JioStar groups
+          # 🔥 JSTAR – DROP Devotional, Educational, Music, Lifestyle
           if [ -s external_jstar.m3u ]; then
             awk '
               /^#EXTINF:/ {
-                # DROP unwanted groups completely
-                if ($0 ~ /group-title="Devotional"|group-title="Educational"|group-title="Music"|group-title="Lifestyle"/) {
-                  skip = 1
-                } else {
-                  skip = 0
-                }
-
-                if (!skip) {
-                  gsub(/group-title="[^"]*"/, "", $0)
-                  name = tolower($0)
-
-                  if (name ~ /sports|sport |ten|star sports|espn|cricket|football|league/) {
-                    sub(/#EXTINF:/, "#EXTINF:-1 group-title=\"JioStar Sports\" ", $0)
-                  }
-                  else if (name ~ /movies|movie|cinema|gold|max|pix|hbo|action/) {
-                    sub(/#EXTINF:/, "#EXTINF:-1 group-title=\"JioStar Movies\" ", $0)
-                  }
-                  else if (name ~ /kids|kid|cartoon|disney|nick|pogo|hungama/) {
-                    sub(/#EXTINF:/, "#EXTINF:-1 group-title=\"JioStar Kids\" ", $0)
-                  }
-                  else {
-                    sub(/#EXTINF:/, "#EXTINF:-1 group-title=\"JioStar Entertainment\" ", $0)
-                  }
-
-                  print
-                }
+                skip = ($0 ~ /group-title="Devotional"|group-title="Educational"|group-title="Music"|group-title="Lifestyle"/)
               }
-              !/^#EXTM3U/ && !skip
+              !skip && !/^#EXTM3U/
             ' external_jstar.m3u >> merged_playlist.m3u
           fi
 
-          # Other playlists
+          # Other normal playlists
           for f in \
             external_fancode.m3u \
             external_z5.m3u \
@@ -76,7 +51,7 @@ jobs:
             fi
           done
 
-          # 🔥 SonyLIV split
+          # SonyLIV split: Sports & Official
           if [ -s external_sonyliv_channels.m3u ]; then
             awk '
               /^#EXTINF:/ {

@@ -30,9 +30,18 @@ jobs:
         run: |
           echo '#EXTM3U' > merged_playlist.m3u
 
-          # Merge normal playlists
+          # 🔥 JSTAR – DROP Devotional & Educational
+          if [ -s external_jstar.m3u ]; then
+            awk '
+              /^#EXTINF:/ {
+                skip = ($0 ~ /group-title="Devotional"|group-title="Educational"/)
+              }
+              !skip && !/^#EXTM3U/
+            ' external_jstar.m3u >> merged_playlist.m3u
+          fi
+
+          # Other normal playlists
           for f in \
-            external_jstar.m3u \
             external_fancode.m3u \
             external_z5.m3u \
             external_sonyliv.m3u; do
@@ -42,13 +51,13 @@ jobs:
             fi
           done
 
-          # 🔥 Split Sony Sports & SonyLIV Official
+          # SonyLIV split: Sports & Official
           if [ -s external_sonyliv_channels.m3u ]; then
             awk '
               /^#EXTINF:/ {
                 gsub(/group-title="[^"]*"/, "", $0)
-
                 line = tolower($0)
+
                 if (line ~ /sony sports|sports ten|ten 1|ten 2|ten 3|ten 4|ten 5|six/) {
                   sub(/#EXTINF:/, "#EXTINF:-1 group-title=\"Sony Sports\" ", $0)
                 } else {
@@ -59,7 +68,7 @@ jobs:
             ' external_sonyliv_channels.m3u >> merged_playlist.m3u
           fi
 
-          # Merge local playlists
+          # Local playlists
           if [ -d "My_playlist" ]; then
             find My_playlist -type f -name "*.m3u" -print0 | while IFS= read -r -d '' file; do
               grep -v '^#EXTM3U' "$file" >> merged_playlist.m3u || true

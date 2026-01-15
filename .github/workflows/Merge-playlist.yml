@@ -3,7 +3,7 @@ name: Ultimate Playlist Merge (Fast)
 on:
   push:
     paths:
-      - My_playlist
+      - My_playlist/**
   schedule:
     - cron: '*/30 * * * *'
   workflow_dispatch:
@@ -31,18 +31,25 @@ jobs:
         run: |
           echo '#EXTM3U' > merged_playlist.m3u
 
+          # Merge downloaded playlists
           for f in \
             external_jstar.m3u \
             external_fancode.m3u \
             external_z5.m3u \
             external_sonyliv.m3u \
-            external_sonyliv_channels.m3u \
-            My_playlist; do
+            external_sonyliv_channels.m3u; do
 
             if [ -s "$f" ]; then
-              grep -v '^#EXTM3U' "$f" >> merged_playlist.m3u
+              grep -v '^#EXTM3U' "$f" >> merged_playlist.m3u || true
             fi
           done
+
+          # Merge all local playlists from My_playlist folder
+          if [ -d "My_playlist" ]; then
+            find My_playlist -type f -name "*.m3u" -print0 | while IFS= read -r -d '' file; do
+              grep -v '^#EXTM3U' "$file" >> merged_playlist.m3u || true
+            done
+          fi
 
       - name: Commit if changed
         run: |

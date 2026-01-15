@@ -260,3 +260,7 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01605-ndtvconvergence-ndtvindia-lgi
 
 #EXTINF:-1 tvg-logo="https://d2cv8l6xnxpisu.cloudfront.net/NDTV24x7-black.jpg" group-title="NEWS" group-logo="https://i.ibb.co/zhQMSvMt/download.png", NDTV 24X7
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01605-ndtvconvergence-ndtv24x7-lgin/playlist.m3u8
+
+#EXTINF:-1 tvg-id="pishow-1043" tvg-name="INDIA TV" tvg-language="hi" tvg-logo="https://s3.ap-south-1.amazonaws.com/media.playboxtv.in/content/liveTv/pishow-1043.jpg" group-title="NEWS" group-logo="https://www.playboxtv.in/images/playbox-logo.png", INDIA TV
+#EXTHTTP:{"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36", "Origin": "https://www.playboxtv.in", "Referer": "https://www.playboxtv.in/livetv", "X-User-Agent": "OTT Navigator/1.7.2.2 (Linux;Android 11; en; 1nsjitl)"}
+https://cdn-2.pishow.tv/live/1043/master.m3u8|User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36&Origin=https://www.playboxtv.in&Referer=https://www.playboxtv.in/livetv&X-User-Agent=OTT Navigator/1.7.2.2 (Linux;Android 11; en; 1nsjitl)

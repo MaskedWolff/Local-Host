@@ -30,11 +30,11 @@ jobs:
         run: |
           echo '#EXTM3U' > merged_playlist.m3u
 
-          # 🔥 JSTAR – DROP Devotional & Educational
+          # 🔥 JSTAR – DROP Devotional, Educational, Music, Lifestyle
           if [ -s external_jstar.m3u ]; then
             awk '
               /^#EXTINF:/ {
-                skip = ($0 ~ /group-title="Devotional"|group-title="Educational"/)
+                skip = ($0 ~ /group-title="Devotional"|group-title="Educational"|group-title="Music"|group-title="Lifestyle"/)
               }
               !skip && !/^#EXTM3U/
             ' external_jstar.m3u >> merged_playlist.m3u

@@ -27,31 +27,33 @@ jobs:
           curl -fsSL "https://raw.githubusercontent.com/drmlive/sliv-live-events/main/sonyliv.m3u" -o external_sonyliv.m3u || true
           curl -fsSL "https://raw.githubusercontent.com/hasanhabibmottakin/Sony-Liv-Channels/main/playlist.m3u" -o external_sonyliv_channels.m3u || true
 
-      - name: Fix SonyLIV Channels group title
-        run: |
-          if [ -s external_sonyliv_channels.m3u ]; then
-            sed -i 's/group-title="[^"]*"/group-title="SonyLIV Official"/g' external_sonyliv_channels.m3u
-          fi
-
       - name: Merge playlists
         run: |
           echo '#EXTM3U' > merged_playlist.m3u
 
+          # Normal playlists
           for f in \
             external_jstar.m3u \
             external_fancode.m3u \
             external_z5.m3u \
-            external_sonyliv.m3u \
-            external_sonyliv_channels.m3u; do
+            external_sonyliv.m3u; do
 
             if [ -s "$f" ]; then
-              grep -v '^#EXTM3U' "$f" >> merged_playlist.m3u || true
+              grep -v '^#EXTM3U' "$f" >> merged_playlist.m3u
             fi
           done
 
+          # 🔥 FORCE SonyLIV Official group title
+          if [ -s external_sonyliv_channels.m3u ]; then
+            grep -v '^#EXTM3U' external_sonyliv_channels.m3u \
+            | sed -E 's/(#EXTINF:[^,]*),.*/\1 group-title="SonyLIV Official",/g' \
+            >> merged_playlist.m3u
+          fi
+
+          # Local playlists
           if [ -d "My_playlist" ]; then
             find My_playlist -type f -name "*.m3u" -print0 | while IFS= read -r -d '' file; do
-              grep -v '^#EXTM3U' "$file" >> merged_playlist.m3u || true
+              grep -v '^#EXTM3U' "$file" >> merged_playlist.m3u
             done
           fi
 

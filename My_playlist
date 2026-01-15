@@ -247,9 +247,6 @@ https://amg00866-amg00866c5-lg-in-3520.playouts.now.amagi.tv/playlist/amg00866-t
 #EXTINF:-1 tvg-logo="https://dvvlqr1rtlak3.cloudfront.net/NW18/CNN/CNN_News18_400x200.jpg" group-title="NEWS" group-logo="https://i.ibb.co/zhQMSvMt/download.png", CNN News18
 https://amg00866-amg00866c5-lg-in-3520.playouts.now.amagi.tv/playlist/amg00866-tv18broadcastlimitedfast-cnnnews18-lgin/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="https://dvvlqr1rtlak3.cloudfront.net/ZEE/WION/200x-400-px-landscape-wion.jpg" group-title="NEWS" group-logo="https://i.ibb.co/zhQMSvMt/download.png", Zee Wion
-https://amg02481-amg02481c1-lg-in-5173.playouts.now.amagi.tv/playlist/amg02481-indiadotcomdigitalprivatelimitedfast-wion-lgin/playlist.m3u8
-
 #EXTINF:-1 tvg-logo="https://spoo.me/kashmir" group-title="NEWS", Voice Urdu Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1
 https://live1.ottlive.co.in/voiceurdutv/voiceurdutv/index.m3u8

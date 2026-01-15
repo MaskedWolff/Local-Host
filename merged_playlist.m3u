@@ -5237,9 +5237,6 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/Bharat_Express_BTS/output/index.mpd?__hdn
 #EXTHTTP:{"cookie":"__hdnea__=st=1768438012~exp=1768524412~acl=/*~hmac=ff4362d9412acfae1329992e8dcb6226e3a86ce6b783c0820c0e028e9c6e0e87"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/One_Paschima_BTS/output/index.mpd?__hdnea__=st=1768438012~exp=1768524412~acl=/*~hmac=ff4362d9412acfae1329992e8dcb6226e3a86ce6b783c0820c0e028e9c6e0e87&xxx=%7Ccookie=__hdnea__=st=1768438012~exp=1768524412~acl=/*~hmac=ff4362d9412acfae1329992e8dcb6226e3a86ce6b783c0820c0e028e9c6e0e87
 
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/138750_5800_OV_WF_fc-web_1766641250975.jpg" group-title="Fancode-Cricket", Wellington Firebirds vs Otago Volts (Super Smash, 2025-26)
-https://in-mc-fdlive.fancode.com/mumbai/138750_english_hls_c5f0ec436254387_1ta-di_h264/index.m3u8
-
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/138934_5808_CCH_NOE_fc-web_1766733054213.jpg" group-title="Fancode-Cricket", Chattogram Royals vs Noakhali Express (Bangladesh Premier League, 2025-26)
 https://in-mc-fdlive.fancode.com/mumbai/138934_english_hls_62a118a79b98092_1ta-di_h264/index.m3u8
 

@@ -21,28 +21,36 @@ jobs:
           set -e
           echo "Downloading external playlists..."
 
-          curl -fsSL "https://raw.githubusercontent.com/alex8875/m3u/refs/heads/main/jstar.m3u" -o external_jstar.m3u || true
+          curl -fsSL "https://raw.githubusercontent.com/alex8875/m3u/main/jstar.m3u" -o external_jstar.m3u || true
           curl -fsSL "https://raw.githubusercontent.com/drmlive/fancode-live-events/main/fancode.m3u" -o external_fancode.m3u || true
-          curl -fsSL "https://raw.githubusercontent.com/alex8875/m3u/refs/heads/main/z5.m3u" -o external_z5.m3u || true
-          curl -fsSL "https://raw.githubusercontent.com/hasanhabibmottakin/Sony-Liv-Channels/refs/heads/main/playlist.m3u" -o external_sony.m3u || true
-          curl -fsSL "https://raw.githubusercontent.com/drmlive/sliv-live-events/refs/heads/main/sonyliv.m3u" -o external_sonyliv.m3u || true
+          curl -fsSL "https://raw.githubusercontent.com/alex8875/m3u/main/z5.m3u" -o external_z5.m3u || true
+          curl -fsSL "https://raw.githubusercontent.com/hasanhabibmottakin/Sony-Liv-Channels/main/playlist.m3u" -o sony1.m3u || true
+          curl -fsSL "https://raw.githubusercontent.com/drmlive/sliv-live-events/main/sonyliv.m3u" -o sony2.m3u || true
 
-      - name: Merge playlists
+      - name: Merge Sony playlists safely
         run: |
-          echo "#EXTM3U" > merged_playlist.m3u
-
-          for f in external_jstar.m3u external_fancode.m3u external_z5.m3u external_sony.m3u external_sonyliv.m3u My_playlist; do
+          echo "#EXTM3U" > external_sonyliv_merged.m3u
+          for f in sony1.m3u sony2.m3u; do
             if [ -s "$f" ]; then
-              grep -v '^#EXTM3U' "$f" >> merged_playlist.m3u || true
+              grep -v '^#EXTM3U' "$f" >> external_sonyliv_merged.m3u
             fi
           done
 
-      - name: Add liv1 to Sony channels
+      - name: Merge all playlists
+        run: |
+          echo "#EXTM3U" > merged_playlist.m3u
+
+          for f in external_jstar.m3u external_fancode.m3u external_z5.m3u external_sonyliv_merged.m3u My_playlist; do
+            if [ -s "$f" ]; then
+              grep -v '^#EXTM3U' "$f" >> merged_playlist.m3u
+            fi
+          done
+
+      - name: Normalize SonyLIV tags
         run: |
           sed -i '/#EXTINF/{
-            /Sony/{
-              /liv1/! s/$/ liv1/
-            }
+            /SonyLIV\|SONY LIV\|Sony Liv/!b
+            /liv1/! s/$/ liv1/
           }' merged_playlist.m3u
 
       - name: Commit if changed

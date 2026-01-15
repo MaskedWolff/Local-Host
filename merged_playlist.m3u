@@ -5501,10 +5501,10 @@ https://dishmt.slivcdn.com/hls/live/2020589/ten4hd/master.m3u8?hdnea=exp=1768496
 #EXTINF:-1 tvg-id="1000009275" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/39_277.png", Sony Sports Ten 4 HD liv1
 https://dishmt.slivcdn.com/hls/live/2020589/ten4hd/master.m3u8?hdnea=exp=1768496787~acl=/*~id=05721367104346460342175756760982~hmac=88fb48c7bb56527ca921f7fefdea3994ea11844f1212eadae5abf99a5fb2f43e
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012916/1767337972882901_SuperSmash2526_mens_Otago-Volts-vs-Wellington-Firebirds_1jan_landscape_thumb.jpg" group-title="sonyliv-Cricket", Otago Volts vs Wellington Firebirds - 15 Jan 2026 [ENG] - Super Smash 2025/26 Men's
-https://sonydaimenew.akamaized.net/hls/live/2005444/DAI07ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768496787~acl=/*~id=05721367104346460342175756760982~hmac=88fb48c7bb56527ca921f7fefdea3994ea11844f1212eadae5abf99a5fb2f43e
+https://sonydaimenew.akamaized.net/hls/live/2005444/DAI07ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768497394~acl=/*~id=03771835560757545467163148829364~hmac=984efccc3a6eb76a94006d54a68beab42ef6c2f72d3fbbf21f8281d0c619fa2f
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013339/1768311115384502_AO26_Qualifying_Final_Round_13jan_landscape_thumb.jpg" group-title="sonyliv-Tennis", Qualifying - Final Round - 15 Jan 2026 [ENG] - Australian Open 2026
-https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768496787~acl=/*~id=05721367104346460342175756760982~hmac=88fb48c7bb56527ca921f7fefdea3994ea11844f1212eadae5abf99a5fb2f43e
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768497394~acl=/*~id=03771835560757545467163148829364~hmac=984efccc3a6eb76a94006d54a68beab42ef6c2f72d3fbbf21f8281d0c619fa2f
 
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -5754,9 +5754,6 @@ https://amg00866-amg00866c5-lg-in-3520.playouts.now.amagi.tv/playlist/amg00866-t
 
 #EXTINF:-1 tvg-logo="https://dvvlqr1rtlak3.cloudfront.net/NW18/CNN/CNN_News18_400x200.jpg" group-title="NEWS" group-logo="https://i.ibb.co/zhQMSvMt/download.png", CNN News18
 https://amg00866-amg00866c5-lg-in-3520.playouts.now.amagi.tv/playlist/amg00866-tv18broadcastlimitedfast-cnnnews18-lgin/playlist.m3u8
-
-#EXTINF:-1 tvg-logo="https://dvvlqr1rtlak3.cloudfront.net/ZEE/WION/200x-400-px-landscape-wion.jpg" group-title="NEWS" group-logo="https://i.ibb.co/zhQMSvMt/download.png", Zee Wion
-https://amg02481-amg02481c1-lg-in-5173.playouts.now.amagi.tv/playlist/amg02481-indiadotcomdigitalprivatelimitedfast-wion-lgin/playlist.m3u8
 
 #EXTINF:-1 tvg-logo="https://spoo.me/kashmir" group-title="NEWS", Voice Urdu Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1

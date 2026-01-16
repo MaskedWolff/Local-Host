@@ -101,6 +101,12 @@ https://cdn-globecast.akamaized.net/live/eds/saudi_quran/hls_roku/index.m3u8
 #https://win.holol.com/live/quran/playlist.m3u8
 #https://al-ekhbaria-prod-dub.shahid.net/out/v1/9885cab0a3ec4008b53bae57a27ca76b/index.m3u8
 
+#EXTINF:-1 tvg-id="" tvg-logo="https://myco.io/_next/image?url=https%3A%2F%2Fassets.myco.io%2Fpublic%2Fcompressed%2Fthumbnails%2F20251127%2Fmycolive-33_copy_21-1764254756112.webp&w=3840&q=30" group-title="ISLAMIC",Peace TV Urdu (MyCo)
+https://ml-pull-dvc-myco.io:2096/PEACETV-URDU/index.m3u8
+
+#EXTINF:-1 tvg-id="" tvg-logo="https://myco.io/_next/image?url=https%3A%2F%2Fassets.myco.io%2Fpublic%2Fcompressed%2Fthumbnails%2F20251127%2Fmycolive-33_copy_20-1764254602627.webp&w=3840&q=30" group-title="ISLAMIC",Peace TV En (MyCo)
+https://ml-pull-dvc-myco.io:2096/PEACETV-ENG/index.m3u8
+
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3w5XWgiRF9lQonp4lbp3iiv6plXk5LMd0VA&usqp=CAU" group-title="ISLAMIC", Iqra TV
 #EXTVLCOPT:http-user-agent=VLC/3.0.9 LibVLC/3.0.9
 https://playlist.fasttvcdn.com/pl/dlkqw1ftuvuuzkcb4pxdcg/Iqraafasttv1/playlist.m3u8

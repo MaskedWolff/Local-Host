@@ -3532,6 +3532,12 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/One_Paschima_BTS/output/index.mpd?&xxx=%7
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/138929_5808_CCH_DBR_fc-web_1766733054169.jpg" group-title="Fancode-Cricket", Chattogram Royals vs Rajshahi Warriors (Bangladesh Premier League, 2025-26)
 https://in-mc-fdlive.fancode.com/mumbai/138929_english_hls_5538690d1999247_1ta-di_h264/index.m3u8
 
+#EXTINF:-1, tvg-logo="https://images.fancode.com/aig/match/v1/139914_CASACARDS_APP.png" group-title="Fancode-Football", Coventry City Football Club vs Leicester City F.C. (EFL Championship 2025-26)
+https://in-mc-fdlive.fancode.com/mumbai/139914_english_hls_ec0f740f6e39831_1ta-di_h264/index.m3u8
+
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/131025_5427_RM_LE_fc-Web.png" group-title="Fancode-Football", Real Madrid vs Levante (LALIGA 2025-26)
+https://in-mc-fdlive.fancode.com/mumbai/131025_english_hls_ce5579a68110873_1ta-di_h264/index.m3u8
+
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Uzbekistan-U23_vs_ChinaPR_fc-web.jpg" group-title="Fancode-Football", Uzbekistan U23 vs China PR U23 (AFC U23 Asian Cup, 2026)
 https://in-mc-fdlive.fancode.com/mumbai/139277_english_hls_de1c6a34da85554_1ta-di_h264/index.m3u8
 
@@ -3741,6 +3747,12 @@ https://z5ak-cmaflive.zee5.com/cmaf/live/2105538/ZeeTalkiesELE/master.m3u8?hdntl
 #EXTINF:-1 tvg-id="0-9-9z5398761" group-title="Spiritual" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Aastha.png",Aastha
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
 https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8?hdntl=exp=1768700464~acl=%2f*~id=5c6e7936-028f-4641-a271-8e77650dcc79~data=hdntl~hmac=eac9413a2059ef2d3667efb4b9d0df553c9dce07edcfbfdbebd1e4f97eb24e86
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013438/1768473682860824_PWL_26_UP-Dominators-vs-Tiigers-Of-Mumbai-Dangal_15jan_landscape_thumb.jpg" group-title="sonyliv-Wrestling", UP Dominators vs Tigers of Mumbai Dangals - 17 Jan 2026 [ENG] - Pro Wrestling League 2026
+https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768695282~acl=/*~id=31747692721440248016511508635611~hmac=e53a9960d40b6dcd3d870506a17c0cc18aaab59586df20419b340785c6dbcdee
+
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013438/1768473682860824_PWL_26_UP-Dominators-vs-Tiigers-Of-Mumbai-Dangal_15jan_landscape_thumb.jpg" group-title="sonyliv-Wrestling", UP Dominators vs Tigers of Mumbai Dangals - 17 Jan 2026 [HIN] - Pro Wrestling League 2026
+https://sonydaimenew.akamaized.net/hls/live/2037139/DAI19ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1768695282~acl=/*~id=31747692721440248016511508635611~hmac=e53a9960d40b6dcd3d870506a17c0cc18aaab59586df20419b340785c6dbcdee
+
 #EXTINF:-1 group-title="SonyLIV Official" -1 tvg-id="1000009246" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/4_244.png", SET HD
 https://dishmt.slivcdn.com/hls/live/2011671/SETHD/master.m3u8?hdnea=exp=1768689827~acl=/*~id=84794903798669125247574014732806~hmac=49a9d3d7c651365191be82853607fe808da383f4c03f5bce10967cf9483b7054
 #EXTINF:-1 group-title="SonyLIV Official" -1 tvg-id="1000009248" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/33_247.png", Sony SAB HD

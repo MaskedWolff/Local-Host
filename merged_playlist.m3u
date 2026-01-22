@@ -3744,9 +3744,6 @@ https://z5ak-cmaflive.zee5.com/cmaf/live/2105538/ZeeTalkiesELE/master.m3u8?hdntl
 #EXTINF:-1 tvg-id="0-9-9z5398761" group-title="Spiritual" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Aastha.png",Aastha
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
 https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8?hdntl=exp=1769172633~acl=%2f*~id=d816d0d3-0dcc-4e30-9ff0-e2ff3fdfc95c~data=hdntl~hmac=a2e132f1e2d88f073a160e0a4cff1ae202dad98b1e529005cdd48dda1d438cc9
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013660/1768629441637798_UEL_26_MD7_Utrecht-vs-Genk_landscape_thumb.jpg" group-title="sonyliv-Football", Utrecht vs Genk - MD 7 - 23 Jan 2026 [ENG] - UEFA Europa League 2025-26
-https://liveakmt-p.slivcdn.com/hls/live/2005445/DAI06ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769164984~acl=/*~id=34646620029724438711102941562700~hmac=4a2f281691757af94eb8852f1cef3a4143bcbfa2388c2aec6f2eddec3fd5efc0
-
 #EXTINF:-1 group-title="SonyLIV Official" -1 tvg-id="1000009246" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/4_244.png", SET HD
 https://dishmt.slivcdn.com/hls/live/2011671/SETHD/master.m3u8?hdnea=exp=1769164373~acl=/*~id=83943239073426410363744755053544~hmac=957ddb10b907784872d383b6fe098ea2740e3080a111f22530f81ff47402ebd8
 #EXTINF:-1 group-title="SonyLIV Official" -1 tvg-id="1000009248" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/33_247.png", Sony SAB HD

@@ -22,7 +22,10 @@ jobs:
 
           curl -fsSL "https://raw.githubusercontent.com/alex8875/m3u/main/jstar.m3u" -o external_jstar.m3u || true
           curl -fsSL "https://raw.githubusercontent.com/drmlive/fancode-live-events/main/fancode.m3u" -o external_fancode.m3u || true
-          curl -fsSL "https://raw.githubusercontent.com/alex8875/m3u/main/z5.m3u" -o external_z5.m3u || true
+
+          # ✅ ZEE5 SOURCE REPLACED (Cloudplay)
+          curl -fsSL "https://raw.githubusercontent.com/cloudplay97/m3u/refs/heads/main/zee5.m3u" -o external_z5.m3u || true
+
           curl -fsSL "https://raw.githubusercontent.com/drmlive/sliv-live-events/main/sonyliv.m3u" -o external_sonyliv.m3u || true
           curl -fsSL "https://raw.githubusercontent.com/hasanhabibmottakin/Sony-Liv-Channels/main/playlist.m3u" -o external_sonyliv_channels.m3u || true
 

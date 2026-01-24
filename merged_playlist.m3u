@@ -3529,7 +3529,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Bharat_Express_BTS/output/index.mpd?__hdn
 #EXTHTTP:{"cookie":"__hdnea__=st=1769215679~exp=1769302079~acl=/*~hmac=f333867ee3b59a64f8242e56050d9aafe174406a41a6d91cf08c4b3fc35ba012"}
 https://jiotvmblive.cdn.jio.com/bpk-tv/One_Paschima_BTS/output/index.mpd?__hdnea__=st=1769215679~exp=1769302079~acl=/*~hmac=f333867ee3b59a64f8242e56050d9aafe174406a41a6d91cf08c4b3fc35ba012&xxx=%7Ccookie=__hdnea__=st=1769215679~exp=1769302079~acl=/*~hmac=f333867ee3b59a64f8242e56050d9aafe174406a41a6d91cf08c4b3fc35ba012
 
-#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/138758_5800_CS_OV_fc-web_1766641251001.jpg" group-title="Fancode-Cricket", Central Stags vs Otago Volts (Super Smash, 2025-26)
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/138758_5800_CS_OV_fc-web_1766641251001.jpg" group-title="Fancode-Cricket", Otago Volts vs Central Stags (Super Smash, 2025-26)
 https://in-mc-fdlive.fancode.com/mumbai/138758_english_hls_315b8dcdb499012_1ta-di_h264/index.m3u8
 
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/13_Papua-New-Guinea-Women-vs-Namibia-Women_1768653441341.png" group-title="Fancode-Cricket", Namibia Women vs Papua New Guinea Women (ICC Women's T20 World Cup Global Qualifier, 2026)
@@ -3748,34 +3748,34 @@ https://z5ak-cmaflive.zee5.com/cmaf/live/2105538/ZeeTalkiesELE/master.m3u8?hdntl
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 ygx/69.1 Safari/537.36
 https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8?hdntl=exp=1769305403~acl=%2f*~id=7e6ac2aa-8875-4ab2-b4c6-4d4f6c473e10~data=hdntl~hmac=b416df4104df141fe1834dc56818a130f24486be6ab925d606767cf7f816ce54
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014066/1769195912837286_AO2026_Landscape_Thumb_Spizzirri_V_Sinner_SP.jpg" group-title="sonyliv-Tennis", Spizzirri vs Sinner - Round 3 - 24 Jan 2026	 [ENG] - Australian Open 2026
-https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769273220~acl=/*~id=76378298774177669823279940542433~hmac=78add96e8299d7a3bca4699ac3e2bc0fa5ea956110b3e958eb0b566fcc917bd0
+https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769275060~acl=/*~id=74362440962527497967547061532342~hmac=cfd59b6922c97efcbcf96c81021db791522684b4e763213b9246c6c4c3b75a2e
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014066/1769195912837286_AO2026_Landscape_Thumb_Spizzirri_V_Sinner_SP.jpg" group-title="sonyliv-Tennis", Spizzirri vs Sinner - Round 3 - 24 Jan 2026	 [HIN] - Australian Open 2026
-https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769273220~acl=/*~id=76378298774177669823279940542433~hmac=78add96e8299d7a3bca4699ac3e2bc0fa5ea956110b3e958eb0b566fcc917bd0
+https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769275060~acl=/*~id=74362440962527497967547061532342~hmac=cfd59b6922c97efcbcf96c81021db791522684b4e763213b9246c6c4c3b75a2e
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014066/1769195912837286_AO2026_Landscape_Thumb_Spizzirri_V_Sinner_SP.jpg" group-title="sonyliv-Tennis", Spizzirri vs Sinner - Round 3 - 24 Jan 2026	 [TAM] - Australian Open 2026
-https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769273220~acl=/*~id=76378298774177669823279940542433~hmac=78add96e8299d7a3bca4699ac3e2bc0fa5ea956110b3e958eb0b566fcc917bd0
+https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769275060~acl=/*~id=74362440962527497967547061532342~hmac=cfd59b6922c97efcbcf96c81021db791522684b4e763213b9246c6c4c3b75a2e
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014066/1769195912837286_AO2026_Landscape_Thumb_Spizzirri_V_Sinner_SP.jpg" group-title="sonyliv-Tennis", Spizzirri vs Sinner - Round 3 - 24 Jan 2026	 [TEL] - Australian Open 2026
-https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769273220~acl=/*~id=76378298774177669823279940542433~hmac=78add96e8299d7a3bca4699ac3e2bc0fa5ea956110b3e958eb0b566fcc917bd0
+https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769275060~acl=/*~id=74362440962527497967547061532342~hmac=cfd59b6922c97efcbcf96c81021db791522684b4e763213b9246c6c4c3b75a2e
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000012997/1767622869328117_SuperSmash2526_mens_Central_Stags_vs_Otago_Volts_5jan_landscape_thumb.jpg" group-title="sonyliv-Cricket", Central Stags vs Otago Volts - 24 Jan 2026 [ENG] - Super Smash 2025/26 Men's
-https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769273220~acl=/*~id=76378298774177669823279940542433~hmac=78add96e8299d7a3bca4699ac3e2bc0fa5ea956110b3e958eb0b566fcc917bd0
+https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769275060~acl=/*~id=74362440962527497967547061532342~hmac=cfd59b6922c97efcbcf96c81021db791522684b4e763213b9246c6c4c3b75a2e
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014066/1769195912671286_AO2026_Landscape_Thumb_Shelton_V_Vacherot_SP.jpg" group-title="sonyliv-Tennis", Ben Shelton vs Valentin Vacherot - Men's Singles - 24 Jan 2026 [ENG] - Australian Open 2026
-https://sonydaimenew.akamaized.net/hls/live/2018457/DAI09ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769273220~acl=/*~id=76378298774177669823279940542433~hmac=78add96e8299d7a3bca4699ac3e2bc0fa5ea956110b3e958eb0b566fcc917bd0
+https://sonydaimenew.akamaized.net/hls/live/2018457/DAI09ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769275060~acl=/*~id=74362440962527497967547061532342~hmac=cfd59b6922c97efcbcf96c81021db791522684b4e763213b9246c6c4c3b75a2e
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014066/1769195911599286_AO2026_Landscape_Thumb_Mertens_V_Bartunkova_SP.jpg" group-title="sonyliv-Tennis", Elise Mertens vs Nikola Bartunkova - Women's Singles - 24 Jan 2026 [ENG] - Australian Open 2026
-https://sonydaimenew.akamaized.net/hls/live/2018458/DAI10ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769273220~acl=/*~id=76378298774177669823279940542433~hmac=78add96e8299d7a3bca4699ac3e2bc0fa5ea956110b3e958eb0b566fcc917bd0
+https://sonydaimenew.akamaized.net/hls/live/2018458/DAI10ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769275060~acl=/*~id=74362440962527497967547061532342~hmac=cfd59b6922c97efcbcf96c81021db791522684b4e763213b9246c6c4c3b75a2e
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013922/1769051265892997_AO26_Round3_Rod_Laver_Arena_22jan_landscape_thumb.jpg" group-title="sonyliv-Tennis", Eliot Spizzirri vs Jannik Sinner - Men's Singles - 24 Jan 2026 [ENG] - Australian Open 2026
-https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769273220~acl=/*~id=76378298774177669823279940542433~hmac=78add96e8299d7a3bca4699ac3e2bc0fa5ea956110b3e958eb0b566fcc917bd0
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013922/1769051265892997_AO26_Round3_Rod_Laver_Arena_22jan_landscape_thumb.jpg" group-title="sonyliv-Tennis", Rod Laver Arena - 24 Jan 2026 [ENG] - Australian Open 2026
+https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769275060~acl=/*~id=74362440962527497967547061532342~hmac=cfd59b6922c97efcbcf96c81021db791522684b4e763213b9246c6c4c3b75a2e
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013925/1769053122255613_AO26_Round3_stream2_22jan_landscape_thumb.jpg" group-title="sonyliv-Tennis", Stream 2 - 24 Jan 2026 [ENG] - Australian Open 2026
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769273220~acl=/*~id=76378298774177669823279940542433~hmac=78add96e8299d7a3bca4699ac3e2bc0fa5ea956110b3e958eb0b566fcc917bd0
+https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769275060~acl=/*~id=74362440962527497967547061532342~hmac=cfd59b6922c97efcbcf96c81021db791522684b4e763213b9246c6c4c3b75a2e
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013925/1769053115024613_AO26_Round3_stream3_22jan_landscape_thumb.jpg" group-title="sonyliv-Tennis", Stream 3 - 24 Jan 2026 [ENG] - Australian Open 2026
-https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769273220~acl=/*~id=76378298774177669823279940542433~hmac=78add96e8299d7a3bca4699ac3e2bc0fa5ea956110b3e958eb0b566fcc917bd0
+https://sonydaimenew.akamaized.net/hls/live/2094588/DAI04ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769275060~acl=/*~id=74362440962527497967547061532342~hmac=cfd59b6922c97efcbcf96c81021db791522684b4e763213b9246c6c4c3b75a2e
 
 #EXTINF:-1 group-title="SonyLIV Official" -1 tvg-id="1000009246" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/4_244.png", SET HD
 https://dishmt.slivcdn.com/hls/live/2011671/SETHD/master.m3u8?hdnea=exp=1769273220~acl=/*~id=76378298774177669823279940542433~hmac=78add96e8299d7a3bca4699ac3e2bc0fa5ea956110b3e958eb0b566fcc917bd0

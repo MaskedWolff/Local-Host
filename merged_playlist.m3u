@@ -3541,6 +3541,9 @@ https://in-mc-fdlive.fancode.com/mumbai/139587_english_hls_879f3636f726161_1ta-d
 #EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(2)_1769333142206.png" group-title="Fancode-Futsal", Vietnam vs Kuwait (AFC Futsal Asian Cup, 2026)
 https://in-mc-fdlive.fancode.com/mumbai/139883_english_hls_9e58dfaf8f45377_1ta-di_h264/index.m3u8
 
+#EXTINF:-1, tvg-logo="https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(2)_1769333142206.png" group-title="Fancode-Futsal", Indonesia vs Korea Republic (AFC Futsal Asian Cup, 2026)
+https://in-mc-fdlive.fancode.com/mumbai/139884_english_hls_fde81787c1332_1ta-di_h264/index.m3u8
+
 # Pushed & updated by CloudPlay
 # Telegram: https://t.me/cloudply
 
@@ -3818,29 +3821,26 @@ https://z5ak-cmaflive.zee5.com/cmaf/live/2105538/ZeeTalkiesELE/master.m3u8?hdntl
 #EXTINF:-1 tvg-id="0-9-9z5398761" group-title="Spiritual" tvg-logo="https://d229kpbsb5jevy.cloudfront.net/aastha/320/280/content/common/channel/logos/ycbqly.jpeg",Aastha
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 @joker_verse/537.36
 https://aasthaott.akamaized.net/110923/smil:aasthatv.smil/playlist.m3u8?hdntl=exp=1769586365~acl=%2f*~id=fd2b8130-e11b-42d6-bc2a-f53e38be6202~data=hdntl~hmac=cbb4b8a746605e3993ff9ac8907af130a805e2200640a91306d7d0759128d034
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014248/1769447177040955_AO2026_Landscape_Thumb_Alcaraz_V_De_Minaur_SP.jpg" group-title="sonyliv-Tennis", Carlos Alcaraz vs Alex de Minaur - Quarter-final - 27 Jan 2026 [ENG] - Australian Open 2026
-https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769554372~acl=/*~id=98911075611655165071736936380949~hmac=9359e5380bde4a35d647f8da0833bebfd338afaf95d944689573d4990f687eac
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013680/1768828154505610_studio_show_19jan_landscape_thumb.jpg" group-title="sonyliv-Tennis", Stream 1 - 27 Jan 2026 [ENG] - Australian Open 2026
+https://sonydaimenew.akamaized.net/hls/live/2005445/DAI06ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769560465~acl=/*~id=20043422613752011053892618002939~hmac=6ad5a6c8ef8859c5f072e608dbc6b0854f7445f6ba7e0b1546d4ea9e4cafeab1
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014248/1769447177040955_AO2026_Landscape_Thumb_Alcaraz_V_De_Minaur_SP.jpg" group-title="sonyliv-Tennis", Carlos Alcaraz vs Alex de Minaur - Quarter-final - 27 Jan 2026 [HIN] - Australian Open 2026
-https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769554372~acl=/*~id=98911075611655165071736936380949~hmac=9359e5380bde4a35d647f8da0833bebfd338afaf95d944689573d4990f687eac
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013680/1768828154505610_studio_show_19jan_landscape_thumb.jpg" group-title="sonyliv-Tennis", Stream 1 - 27 Jan 2026 [HIN] - Australian Open 2026
+https://sonydaimenew.akamaized.net/hls/live/2037141/DAI21ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769560465~acl=/*~id=20043422613752011053892618002939~hmac=6ad5a6c8ef8859c5f072e608dbc6b0854f7445f6ba7e0b1546d4ea9e4cafeab1
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014248/1769447177040955_AO2026_Landscape_Thumb_Alcaraz_V_De_Minaur_SP.jpg" group-title="sonyliv-Tennis", Carlos Alcaraz vs Alex de Minaur - Quarter-final - 27 Jan 2026 [TAM] - Australian Open 2026
-https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769554372~acl=/*~id=98911075611655165071736936380949~hmac=9359e5380bde4a35d647f8da0833bebfd338afaf95d944689573d4990f687eac
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013680/1768828154505610_studio_show_19jan_landscape_thumb.jpg" group-title="sonyliv-Tennis", Stream 1 - 27 Jan 2026 [TAM] - Australian Open 2026
+https://sonydaimenew.akamaized.net/hls/live/2037143/DAI23ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769560465~acl=/*~id=20043422613752011053892618002939~hmac=6ad5a6c8ef8859c5f072e608dbc6b0854f7445f6ba7e0b1546d4ea9e4cafeab1
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014248/1769447177040955_AO2026_Landscape_Thumb_Alcaraz_V_De_Minaur_SP.jpg" group-title="sonyliv-Tennis", Carlos Alcaraz vs Alex de Minaur - Quarter-final - 27 Jan 2026 [TEL] - Australian Open 2026
-https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769554372~acl=/*~id=98911075611655165071736936380949~hmac=9359e5380bde4a35d647f8da0833bebfd338afaf95d944689573d4990f687eac
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013680/1768828154505610_studio_show_19jan_landscape_thumb.jpg" group-title="sonyliv-Tennis", Stream 1 - 27 Jan 2026 [TEL] - Australian Open 2026
+https://sonydaimenew.akamaized.net/hls/live/2105080/DAI24ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769560465~acl=/*~id=20043422613752011053892618002939~hmac=6ad5a6c8ef8859c5f072e608dbc6b0854f7445f6ba7e0b1546d4ea9e4cafeab1
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000013962/1769077443147110_SLvsENG26_3odi_landscape_thumb.jpg" group-title="sonyliv-Cricket", 3rd ODI - 27 Jan 2026 [ENG] - England Tour of Sri Lanka 2026
-https://sonydaimenew.akamaized.net/hls/live/2018457/DAI35-criclive/std_lrh-800300010.m3u8?hdnea=exp=1769554372~acl=/*~id=98911075611655165071736936380949~hmac=9359e5380bde4a35d647f8da0833bebfd338afaf95d944689573d4990f687eac
+https://sonydaimenew.akamaized.net/hls/live/2018457/DAI35-criclive/std_lrh-800300010.m3u8?hdnea=exp=1769560465~acl=/*~id=20043422613752011053892618002939~hmac=6ad5a6c8ef8859c5f072e608dbc6b0854f7445f6ba7e0b1546d4ea9e4cafeab1
 
 #EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014166/1769329926969276_WLPT20L26_pune_vs_gurugram_25jan_landscape_thumb.jpg" group-title="sonyliv-Cricket", Pune Panthers vs Gurugram Thunders - 27 Jan 2026 [ENG] - World Legends Pro T20 League 2026
-https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769554372~acl=/*~id=98911075611655165071736936380949~hmac=9359e5380bde4a35d647f8da0833bebfd338afaf95d944689573d4990f687eac
+https://sonydaimenew.akamaized.net/hls/live/2022318/DAI14ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769560465~acl=/*~id=20043422613752011053892618002939~hmac=6ad5a6c8ef8859c5f072e608dbc6b0854f7445f6ba7e0b1546d4ea9e4cafeab1
 
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014197/1769372815753933_AO26_QF_Rod_Laver-_Arena_Landscape_thumb.jpg" group-title="sonyliv-Tennis", Carlos Alcaraz vs Alex de Minaur - Men's Singles - 27 Jan 2026 [ENG] - Australian Open 2026
-https://sonydaimenew.akamaized.net/hls/live/2094589/DAI05ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769554372~acl=/*~id=98911075611655165071736936380949~hmac=9359e5380bde4a35d647f8da0833bebfd338afaf95d944689573d4990f687eac
-
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014198/1769374799588582_AO26_QF_stream2_landscape_thumb_SP.jpg" group-title="sonyliv-Tennis", Stream 2 - 27 Jan 2026 [ENG] - Australian Open 2026
-https://sonydaimenew.akamaized.net/hls/live/2094587/DAI03ME-AO/std_lrh-800300010.m3u8?hdnea=exp=1769554372~acl=/*~id=98911075611655165071736936380949~hmac=9359e5380bde4a35d647f8da0833bebfd338afaf95d944689573d4990f687eac
+#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000014231/1769427531108334_WPL26_Bengaluru_vs_Pune_26jan_landscape_thumb.jpg" group-title="sonyliv-Pickleball", Bengaluru Jawans vs Pune United - 27 Jan 2026 [ENG] - World Pickleball League 2026
+https://sonydaimenew.akamaized.net/hls/live/2022319/DAI15ME-V3/std_lrh-800300010.m3u8?hdnea=exp=1769560465~acl=/*~id=20043422613752011053892618002939~hmac=6ad5a6c8ef8859c5f072e608dbc6b0854f7445f6ba7e0b1546d4ea9e4cafeab1
 
 #EXTINF:-1 group-title="SonyLIV Official" -1 tvg-id="1000009246" tvg-logo="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/sonypicturesnetworksindia/logo/4_244.png", SET HD
 https://dishmt.slivcdn.com/hls/live/2011671/SETHD/master.m3u8?hdnea=exp=1769556808~acl=/*~id=98647913715026790177900361582434~hmac=c7e232b34de2e5775f3387529f40d3a79e4a35024cdcca07fa477f27656ae86c
